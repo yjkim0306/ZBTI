@@ -1,0 +1,48 @@
+#qna{
+    display: none;
+}
+
+.answerBox{
+    width: 100%;
+}
+
+#imageAnswer{
+    display: none;
+}
+
+.qBox, .imageQBox{
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 80%
+}
+
+.answerList, .imageABox{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: block;
+    width: 80%;
+    border: 0px;
+    font-size: 16px;
+}
+
+.answerList:hover, .answerList:focus{
+    background-color: navy;
+    color: whitesmoke;
+}
+
+.status, .imageStatus{
+    height: 20px;
+    width: 80%;
+    background-color: whitesmoke;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.statusBar, .imageStatusBar{
+    height: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+}
